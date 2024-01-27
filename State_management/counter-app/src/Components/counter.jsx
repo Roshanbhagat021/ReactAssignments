@@ -3,7 +3,7 @@
         setCount((n)=>n+1)
     }
     function dec(){
-        setCount((n)=>n+1)
+        setCount((n)=>n-1)
     }
     return(
         <><h1>Count:{count}</h1>
