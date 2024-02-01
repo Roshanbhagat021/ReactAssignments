@@ -40,3 +40,14 @@
 .read-the-docs {
   color: #888;
 }
+
+
+
+#item{
+  transition: scale 0.2s linear;
+}
+#item:hover{
+  scale:1.05;
+  background-color: bisque;
+  cursor: pointer;
+}
