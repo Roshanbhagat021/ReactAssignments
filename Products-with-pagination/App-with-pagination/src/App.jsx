@@ -29,7 +29,7 @@ function App() {
   const [isLoding,setIsLoading]=useState(false)
   const [post,setPost]=useState([])
   const [errors,setErrors] = useState(null)
-  const [page,setPage]=useState(3)
+  const [page,setPage]=useState(1)
   const [pageCount,setPageCount]=useState(1)
 
 
