@@ -9,24 +9,30 @@ function Postitem({ post }) {
             overflowY: "hidden",
             borderRadius: "10px",
             textAlign: "left",
-            padding: "15px",
+            padding: "15px 20px",
             boxShadow:
               "rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px",
           }}
           key={item.id}
         >
           {item.id % 2 == 0 ? (
-            <h2 style={{ color: "red" }}><span className="First-word">ID:</span> {item.id}</h2>
+            <h2 style={{ color: "red" }}>
+              <span className="First-word">ID:</span> {item.id}
+            </h2>
           ) : (
-            <h2 style={{ color: "Green" }}><span className="First-word">ID:</span>  {item.id}</h2>
+            <h2 style={{ color: "Green" }}>
+              <span className="First-word">ID:</span> {item.id}
+            </h2>
           )}
-          <h2><span className="First-word">Title:</span>  {item.title}</h2>
+          <h2>
+            <span className="First-word">Title:</span> {item.title}
+          </h2>
           <h3
             style={{
               overflow: "hidden",
               textOverflow: "ellipsis",
               display: "-webkit-box",
-              WebkitLineClamp: 4,
+              WebkitLineClamp: 5,
               WebkitBoxOrient: "vertical",
             }}
           >
