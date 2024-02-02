@@ -40,3 +40,22 @@
 .read-the-docs {
   color: #888;
 }
+
+@media (width<800px) {
+  .Content-div {
+    display: grid;
+    gap: 20px !important;
+    justify-content: center !important;
+    font-size: 10px !important;
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+
+  .Content-div div {
+    margin: 0 auto;
+  }
+}
+
+.First-word {
+  font-size: 1.8rem;
+  text-transform: uppercase;
+}
