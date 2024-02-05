@@ -15,7 +15,7 @@ function Postitem({ post }) {
           }}
           key={item.id}
         >
-          {item.id % 2 == 0 ? (
+          {item.id % 2 === 0 ? (
             <h2 style={{ color: "red" }}>
               <span className="First-word">ID:</span> {item.id}
             </h2>
